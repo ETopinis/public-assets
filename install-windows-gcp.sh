@@ -39,6 +39,7 @@ echo ""
 
 # then, use dd to copy image
 echo "Destination device is $DESTINATION_DEVICE"
+echo "Running dd command..."
 pigz -dc ./windows.raw.gz | sudo dd of="/dev/$DESTINATION_DEVICE" bs=4M
 
 echo ""
