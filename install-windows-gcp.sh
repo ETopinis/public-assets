@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# wget -qO- https://raw.githubusercontent.com/ngxson/public-assets/main/install-windows-gcp.sh | sudo bash
+
 IMAGE_URL="https://huggingface.co/ngxson/windows-10-ggcloud/resolve/main/windows-10-ggcloud.raw.gz"
 
 if [ "$EUID" -ne 0 ]
